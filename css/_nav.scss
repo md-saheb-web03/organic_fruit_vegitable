@@ -1,0 +1,30 @@
+ #navbar_main{
+    background-color: #34ad54;
+    height: 120px;
+ }
+#navbar_ul{
+    margin: 0 auto;
+
+   
+  
+
+  a{
+    font-size: 22px;
+    color: #fff;
+    padding-right: 15px;
+    font-weight: 600;
+  }
+
+  .navbar_li{
+    padding: 35px 5px;
+    height: 100%;
+    transition: all 0.5s ease-in;
+  }
+}
+.navbar_li:hover{
+    background-color: #ff9933;
+    padding: 20px;
+}
+#navbar_ul .navbar_li:hover{
+  background-color: #f94;
+}

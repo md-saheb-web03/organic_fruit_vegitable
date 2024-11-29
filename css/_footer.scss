@@ -1,0 +1,49 @@
+.footer{
+    width: 100%;
+    background: linear-gradient( rgb(52, 173, 83,.7), rgb(52, 173, 83,.7)),url('../image/img/footer.png') center bottom no-repeat;
+    background-size: contain;
+
+
+    .footer_row{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+
+    .footer_box{
+        width: 18%;
+        font-size: 30px;
+        color: #fff;
+
+        h3{
+            font-size: 40px;
+            color: #f94;
+            margin-bottom: 20px;
+            font-weight: bolder;
+        }
+
+        p{
+            font-weight: bolder;
+        }
+
+        .last_icon{
+            font-size: 25px;
+            display: flex;
+            justify-content: space-between;
+
+            i{
+                color: #fff;
+                padding: 14px;
+                border-radius: 50%;
+                background-color: #f94;
+                cursor: pointer;
+
+            }
+        }
+        input{
+            border-radius: 10px;
+            border: none;
+            margin-bottom: 20px;
+        }
+    }
+}

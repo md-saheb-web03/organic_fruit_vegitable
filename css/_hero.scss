@@ -1,0 +1,133 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+//   swiper code end 
+.hero{
+    width: 100%;
+    min-height: 600px;
+
+}
+.swiper_contact{
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+
+  .swiper_item{
+    width: 100%;
+    min-height: 100%;
+  }
+}
+.swiper1_box{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:lato;
+  overflow: hidden;
+
+
+  .swiper1_heading{
+    margin-bottom: 29px;
+    font-size: 25px;
+    color: #fff;
+  }
+
+  .swiper1_para{
+    color: #fff;
+    margin-bottom: 30px;
+
+    h1{
+      font-size: 70px;
+      line-height: 80px;
+    }
+  }
+
+  .swiper1_btn{
+
+    font-weight: bold;
+    margin-bottom: 90px;
+
+    .explore{
+      color: #fff;
+      background-color: #34ad54;
+      padding: 25px 45px;
+      margin-right: 20px;
+      border: none;
+    }
+    .contact{
+      color: #fff;
+      background-color: #ff9933;
+      padding: 25px 45px;
+      margin-right: 20px;
+      border: none;
+    }
+  }
+}
+#vegfru{
+  width: 100%;
+
+
+  #vegi{
+    width: 49%;
+    // height: 350px;
+    background: #34ad54 url('../image/img/vegetable.png') bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -100px;
+    z-index: 3;
+
+    .vegitable{
+      padding: 90px 30px;
+      font-size: 18px;
+
+      h3{
+        font-size: 45px;
+      }
+    }
+
+  }
+  #fru{
+    width: 49%;
+    // height: 350px;
+    background: #ff9933 url('../image/img/bg-product-2.png') bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -100px;
+    z-index: 3;
+  }
+  
+  .fruit{
+    padding: 90px 30px;
+    font-size: 18px;
+
+    h3{
+      font-size: 45px;
+    }
+  }
+
+}

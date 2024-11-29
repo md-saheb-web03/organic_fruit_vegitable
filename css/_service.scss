@@ -1,0 +1,85 @@
+.service_row{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 120px;
+    padding-left: 30px;
+    padding-bottom: 90px;
+
+
+    .service1{
+        width: 30%;
+        padding: 10px;
+        color: #0bba39;
+        font-size: 22px;
+        
+        .service1_details{
+
+
+            h4{
+               font-size: 50px;
+               color: #263a4f;
+               margin-bottom: 20px;
+            }
+            p{
+                color: gray;
+                font-size: 18px;
+                margin-bottom: 30px;
+            }
+        }
+
+        .service1_btn{
+
+               button{
+                   font-size: 18px;
+                   color: #fff;
+                   background-color: #16a63d;
+                   padding: 15px 40px;
+                   border: none;
+                   outline: none;
+                   font-weight: bold;
+
+               }
+        }
+
+
+    }
+
+    .service2{
+        width: 30%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.4s ease-in;
+
+        .service2_details{
+            width: 80%;
+            // height: 250px;
+            text-align: center;
+
+            i{
+                color: #f93;
+                font-size: 80px;
+                margin-bottom: 20px;
+            }
+            h3{
+                color: #263a4f;
+                margin-bottom: 10px;
+            }
+
+            p{
+                color: rgb(8, 8, 8);
+                font-size: 16px;
+            }
+        }
+    }
+}
+.service2:hover{
+    background-color: #0bba39;
+   
+
+}
+.service2_details:hover{
+    color: #fff;
+}
